@@ -80,5 +80,7 @@ python reviews.py
 ### 3. Запуск
 После успешного запуска перейдите в бота и введите команду /start.
 <div align="center">
+
+### Если Вы остались довольны использованием нашего бота, можете оставить отзыв о нашей студии — [@Reviews](@https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
 </div>
