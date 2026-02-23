@@ -14,7 +14,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import Message, InputMediaPhoto, CallbackQuery
 from aiogram.filters.callback_data import CallbackData
-from flask.cli import load_dotenv
+from dotenv import load_dotenv
 
 load_dotenv(token.env)
 TOKEN = os.getenv("BOT_TOKEN")
@@ -204,4 +204,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
