@@ -73,7 +73,6 @@ BOT_TOKEN=123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
 ### 2. Установка зависимостей
 Склонируйте репозиторий и установите необходимые библиотеки:
 ```bash
-Установка aiogram
 pip install -r requirements.txt
 python reviews.py
  ```
@@ -84,4 +83,5 @@ python reviews.py
 ### Если Вы остались довольны использованием нашего бота, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
 </div>
+
 
