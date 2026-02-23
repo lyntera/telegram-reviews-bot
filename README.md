@@ -4,7 +4,7 @@
 
 # ⭐ Telegram Reviews Bot
 
-**Профессиональный Telegram-бот для автоматизации сбора, модерации и публикации клиентских отзывов.**
+**Telegram-бот для автоматизации сбора, модерации и публикации клиентских отзывов.**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org)
 [![Aiogram](https://img.shields.io/badge/Aiogram-3.x-2ba8e0.svg?logo=telegram&logoColor=white)](https://docs.aiogram.dev/)
@@ -91,6 +91,7 @@ python reviews.py
 ### Если Вы остались довольны пользованием нашим ботом, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
 </div>
+
 
 
 
