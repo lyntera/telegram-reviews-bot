@@ -9,7 +9,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org)
 [![Aiogram](https://img.shields.io/badge/Aiogram-3.x-2ba8e0.svg?logo=telegram&logoColor=white)](https://docs.aiogram.dev/)
 [![Database](https://img.shields.io/badge/Database-SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Maintained by](https://img.shields.io/badge/Developed_by-Lyntera-brightpurple.svg)](#)
+[![Maintained by](https://img.shields.io/badge/Developed_by-Lyntera-8A2BE2.svg)](#)
 
 </div>
 
@@ -91,6 +91,7 @@ python reviews.py
 ### Если Вы остались довольны пользованием нашим ботом, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
 </div>
+
 
 
 
