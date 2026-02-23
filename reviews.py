@@ -4,7 +4,6 @@ import sqlite3
 import json
 import re
 import os
-import token
 from typing import Any, Dict, List
 from aiogram import Bot, Dispatcher, types, F, BaseMiddleware
 from aiogram.filters import Command
@@ -16,7 +15,7 @@ from aiogram.types import Message, InputMediaPhoto, CallbackQuery
 from aiogram.filters.callback_data import CallbackData
 from dotenv import load_dotenv
 
-load_dotenv(token.env)
+load_dotenv("token.env")
 TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = -1003799247157
 CHANNEL_ID = "@lyntrev"
@@ -206,3 +205,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
