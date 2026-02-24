@@ -33,30 +33,41 @@
 
 ---
 
-## Скриншоты работы бота
+---
 
-### 1. 🚀 Начало работы
-В "What can this bot do?" блоке описано то, как происходит запуск и отправка отзыва со стороны пользователя, при нажатии кнопки запуска или отправке команды /start, бот предлагает юзеру отправить отзыв, включая медиафайлы и выбрать оценку:
-<img width="546" height="719" alt="Screenshot_1" src="https://github.com/user-attachments/assets/d45f4ee0-b56d-4ddd-96ed-47ce42e3e104" />
+## 📸 Интерфейс и работа бота
 
-### 2. 🔔 Уведомление в админском чате
-После отправки отзыва, он прилетает в чат администраторов (`ADMIN_CHAT_ID`), где у владельцев есть лишь 2 кнопки: **Опубликовать** и **Отклонить**, а также ведётся счёт порядкового номера отзыва, отображается количество звёзд, юзернейм пользователя, отправившего отзыв и текст непосредственно отзыва:
-<img width="557" height="420" alt="notification admchat" src="https://github.com/user-attachments/assets/8462903d-6bea-44b0-946e-8c4cc3b611df" />
+<div align="center">
 
-### 3. ❌ Отклонение отзыва
-Если отзыв показался Вам неподобающим, оскорбительным и прочие синонимы, Вы можете отклонить отзыв, после чего будет необходимо ввести причину отклонения, которую бот отправит юзеру в личные сообщения:
-<img width="541" height="729" alt="decline admchat" src="https://github.com/user-attachments/assets/a08217e2-246e-4060-bd6a-0ced8a5d3412" />
+### 1. Начало работы и отправка
+Бот предлагает пользователю оставить отзыв, выбрать оценку и прикрепить медиафайлы.
+<br>
+<img width="450" alt="Screenshot_1" src="https://github.com/user-attachments/assets/d45f4ee0-b56d-4ddd-96ed-47ce42e3e104" />
 
-### 4. ✅ Одобрение отзыва
-После нажатия на кнопку одобрения отзыва, он моментально отправляется в указанный `CHANNEL_ID` в следующем формате:
-<img width="555" height="945" alt="message in channel" src="https://github.com/user-attachments/assets/6a3e5239-6d01-43fa-9f4b-0b71b895e1cc" />
+---
 
-### 5. 🖼 Добавление вложений (медиафайлов)
-Также, в данном боте можно отправить и вложения (до 10 штук, ограничение платформы), они точно так же, как и обычный текст, спокойно прикрепляются к отзыву в том же виде, как их отправил пользователь.
-<img width="553" height="752" alt="pics adding" src="https://github.com/user-attachments/assets/7547f3a8-3bf6-45e7-a350-beda478d3917" />
+### 2. Модерация (Админ-панель)
+Все поступающие отзывы попадают в `ADMIN_CHAT_ID`. Администратор видит счетчик, оценку, данные пользователя и принимает решение.
 
-После одобрения, оно отправляется в следующем виде:
-<img width="702" height="942" alt="Screenshot_2" src="https://github.com/user-attachments/assets/7ecceac5-d08d-4ddf-bec7-f7d5cfd1cfa4" />
+| Уведомление в чате | Процесс отклонения |
+| :---: | :---: |
+| <img width="380" alt="notification admchat" src="https://github.com/user-attachments/assets/8462903d-6bea-44b0-946e-8c4cc3b611df" /> | <img width="380" alt="decline admchat" src="https://github.com/user-attachments/assets/a08217e2-246e-4060-bd6a-0ced8a5d3412" /> |
+| *Кнопки одобрения и отклонения* | *Указание причины для пользователя* |
+
+---
+
+### 3. Публикация и медиафайлы
+Бот поддерживает альбомы до 10 вложений. После апрува отзыв мгновенно улетает в `CHANNEL_ID`.
+
+| Предпросмотр медиа (User) | Финальный пост (Channel) |
+| :---: | :---: |
+| <img width="380" alt="pics adding" src="https://github.com/user-attachments/assets/7547f3a8-3bf6-45e7-a350-beda478d3917" /> | <img width="380" alt="message in channel" src="https://github.com/user-attachments/assets/6a3e5239-6d01-43fa-9f4b-0b71b895e1cc" /> |
+
+**Пример опубликованного альбома:**
+<br>
+<img width="550" alt="Screenshot_2" src="https://github.com/user-attachments/assets/7ecceac5-d08d-4ddf-bec7-f7d5cfd1cfa4" />
+
+</div>
 
 ---
 
@@ -124,6 +135,7 @@ python reviews.py
 ### Если Вы остались довольны пользованием нашим ботом, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
 </div>
+
 
 
 
