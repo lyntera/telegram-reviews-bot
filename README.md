@@ -130,7 +130,6 @@ python reviews.py
 ```
 
 Дальше переходите по своему `@bot_id`, жмите кнопку старта и наслаждайтесь.
-<div align="center">
 
 ## 📄 Лицензия
 
@@ -149,10 +148,11 @@ python reviews.py
 
 ---
 
-
+<div align="center">
 ### 💜 Если Вы остались довольны пользованием нашим ботом, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
-<sub>© 2026 Lyntera Studio team. All rights reserved.</sub>
+<sub>© 2026 Lyntera Studio team.</sub>
 </div>
+
 
 
 
