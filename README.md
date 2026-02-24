@@ -149,29 +149,6 @@ python reviews.py
 ---
 
 <div align="center">
-### 💜 Если Вы остались довольны пользованием нашим ботом, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
+💜 Если Вы остались довольны пользованием бота, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team.</sub>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
