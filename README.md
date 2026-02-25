@@ -86,7 +86,7 @@
 
 | Переменная | Описание | Пример |
 | :--- | :--- | :--- |
-| `BOT_TOKEN` | Токен вашего бота от [@BotFather](https://t.me/BotFather) | 123456:ABC-DEF1234ghIkl-lyn444t4e444ra444 |
+| `BOT_TOKEN` | Токен вашего бота от [@BotFather](https://t.me/BotFather) | `123456:ABC-DEF1234ghIkl-lyn444t4e444ra444` |
 | `ACHAT_ID` | ID админ канала (тут отзывы до одобрения). | `-1001234567890` |
 | `CHANNEL_ID` | Юзернейм канала для публикации (тут отзывы после одобрения). | `@lyntrev` |
 | `BOT_USERNAME` | Юзернейм вашего бота. | `@review_lynbot` |
@@ -154,6 +154,7 @@ python reviews.py
 💜 Если Вы остались довольны пользованием бота, можете оставить отзыв о нашей студии — [@Reviews](https://t.me/review_lynbot)
 <sub>© 2026 Lyntera Studio team.</sub>
 </div>
+
 
 
 
