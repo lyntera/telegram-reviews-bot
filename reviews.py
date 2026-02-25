@@ -17,9 +17,9 @@ from dotenv import load_dotenv
 
 load_dotenv("token.env")
 TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_CHAT_ID = -1003799247157
-CHANNEL_ID = "@lyntrev"
-BOT_USERNAME = "@review_lynbot"
+ACHAT_ID = int(os.getenv("ACHAT_ID"))
+CHANNEL_ID = os.getenv("CHANNEL_ID")
+BOT_USERNAME = os.getenv("BOT_USERNAME")
 
 def init_db():
     with sqlite3.connect("reviews.db") as conn:
@@ -133,10 +133,10 @@ async def finalize_review(callback: CallbackQuery, state: FSMContext):
     if data['rev_photos']:
         media = [InputMediaPhoto(media=data['rev_photos'][0], caption=admin_text, parse_mode="HTML")]
         for p_id in data['rev_photos'][1:]: media.append(InputMediaPhoto(media=p_id))
-        await bot.send_media_group(ADMIN_CHAT_ID, media)
-        await bot.send_message(ADMIN_CHAT_ID, f"⚡️ Управление отзывом #{review_id}:", reply_markup=kb.as_markup())
+        await bot.send_media_group(ACHAT_ID, media)
+        await bot.send_message(ACHAT_ID, f"⚡️ Управление отзывом #{review_id}:", reply_markup=kb.as_markup())
     else:
-        await bot.send_message(ADMIN_CHAT_ID, admin_text, reply_markup=kb.as_markup(), parse_mode="HTML")
+        await bot.send_message(ACHAT_ID, admin_text, reply_markup=kb.as_markup(), parse_mode="HTML")
     await callback.message.edit_text("🚀 <b>Спасибо за отзыв!</b>\nОн появится в канале после проверки.", parse_mode="HTML")
     await state.clear()
 
@@ -180,7 +180,7 @@ async def admin_decline_trigger(callback: CallbackQuery, callback_data: AdminAct
     await callback.message.answer(f"⚠️ <b>ОТКЛОНЕНИЕ ОТЗЫВА #{callback_data.review_id}</b>\nНапишите причину в <b>ОТВЕТЕ</b> на это сообщение 👇", parse_mode="HTML")
     await callback.answer()
 
-@dp.message(F.chat.id == ADMIN_CHAT_ID, F.reply_to_message)
+@dp.message(F.chat.id == ACHAT_ID, F.reply_to_message)
 async def process_admin_decline_reply(message: Message):
     reply_text = message.reply_to_message.text or ""
     if "⚠️ ОТКЛОНЕНИЕ ОТЗЫВА #" not in reply_text: return
@@ -205,4 +205,5 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
