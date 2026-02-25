@@ -1,0 +1,27 @@
+# Файлы конфигурации
+config.env
+.env
+
+# База данных
+reviews.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Кеши Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
