@@ -15,7 +15,7 @@ from aiogram.types import Message, InputMediaPhoto, CallbackQuery
 from aiogram.filters.callback_data import CallbackData
 from dotenv import load_dotenv
 
-load_dotenv("token.env")
+load_dotenv("config.env")
 TOKEN = os.getenv("BOT_TOKEN")
 ACHAT_ID = int(os.getenv("ACHAT_ID"))
 CHANNEL_ID = os.getenv("CHANNEL_ID")
@@ -205,5 +205,6 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
 
