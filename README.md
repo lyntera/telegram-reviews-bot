@@ -151,10 +151,11 @@ python reviews.py
 ---
 
 <div align="center">
-💜 Если Вы остались довольны пользованием бота, можете оставить отзыв о нашей студии — <a href="https://t.me/review_lynbot">@Reviews</a>
+💜 Если вам понравилось пользоваться ботом, будем рады вашему отзыву о нашей студии — <a href="https://t.me/review_lynbot">@Reviews</a>
 <br>
 <sub>© 2026 Lyntera Studio team.</sub>
 </div>
+
 
 
 
