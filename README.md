@@ -115,7 +115,7 @@ BOT_USERNAME=@review_bot
 
 ```bash
 pip install -r requirements.txt
- ```
+```
 
 #### Список зависимостей, необходимых для стабильного запуска бота:
 ```text
@@ -155,6 +155,7 @@ python reviews.py
 <br>
 <sub>© 2026 Lyntera Studio team.</sub>
 </div>
+
 
 
 
